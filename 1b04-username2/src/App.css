@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(1, 1, 100);
+}
+.container{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: whitesmoke;
+  height: 200px;
+  border-radius: 20px;
+  width: 500px;
+  flex-direction: column;
+
+}
+.container input{
+  margin: 0 auto;
+  width: 30%;
+  height: 30px;
+  margin-top: 20px;
+}
+.button-1{
+  width: 40%;
+  margin: 0 auto;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: transparent;
+  font-weight: bold;
+}
+h1{
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.button-2{
+  width: 40%;
+  margin: 0 auto;
+  height: 40px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  font-weight: bold;
+}
